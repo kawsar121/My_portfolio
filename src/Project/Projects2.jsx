@@ -128,7 +128,7 @@ const Projects2 = () => {
 
             {/*https://github.com/adnan683515/b2b-clinet-side */}
             <div className="flex flex-wrap gap-2">
-              <a href="https://daiynews.netlify.app/ ">
+              <a href="https://the-dragon-newss.netlify.app/">
                 <ShimmerButton className="p-1 sm:p-3">
                   <button className="bg-[var(--secondary-color)] px-2 py-1 w-full rounded-full text-sm">
                     Live Link
