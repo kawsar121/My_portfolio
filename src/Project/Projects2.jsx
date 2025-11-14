@@ -2,9 +2,15 @@ import React from "react";
 import { NeonGradientCard } from "@/components/magicui/neon-gradient-card";
 import ProjectSlider from "./ProjectSlider";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaFire } from "react-icons/fa";
-import { SiTailwindcss, SiExpress, SiMongodb, SiDaisyui } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiMongodb, SiDaisyui, SiAxios, SiGoogleauthenticator, SiJsonwebtokens, SiCookiecutter } from "react-icons/si";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { motion } from "framer-motion";
+import img1 from '../assets/Cosmetics/nav.png'
+import img2 from '../assets/Cosmetics/nav1.png'
+import img3 from '../assets/Cosmetics/nav2.png'
+import img4 from '../assets/Cosmetics/nav3.png'
+import img5 from '../assets/Cosmetics/nav4.png'
+import img0 from '../assets/Cosmetics/nav0.png'
 
 const Projects2 = () => {
   return (
@@ -25,25 +31,25 @@ const Projects2 = () => {
           <div className="p-6 bg-black  w-full h-full rounded-xl grid grid-cols-2 gap-2">
             <div className="hover:scale-90 transition duration-700">
               <img
-                src="https://i.ibb.co/VpCmG8sk/Screenshot-2025-07-06-001551.png"
+                src={img0}
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
-                src="https://i.ibb.co/PvhpQj8n/screencapture-daiynews-netlify-app-cat-01-2025-07-06-00-49-37.png"
+                src={img5}
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
-                src="https://i.ibb.co/DPzzPGD5/Screenshot-2025-07-06-001951.png"
+                src={img3}
                 alt=""
               />
             </div>
-            <div className="hover:scale-90 transition duration-700 mt-5">
+            <div className="hover:scale-90 transition duration-700 ">
                 <img
-                  src="https://i.ibb.co/B58kS782/Screenshot-2025-07-06-002045.png"
+                  src={img4}
                   alt=""
                 />
               </div>
@@ -68,7 +74,7 @@ const Projects2 = () => {
           <div className="p-6 bg-black rounded-xl text-white space-y-4">
             {/* Title */}
             <h2 className="text-2xl font-bold flex items-center gap-2">
-              📰 Dragon News Website
+              👩‍🦰 Cosmetics Shop Website
             </h2>
 
             {/* Features */}
@@ -81,6 +87,10 @@ const Projects2 = () => {
                 <li>🔍 Filter News category-wise</li>
                 <li>🛍️ Show news details</li>
                 <li>🧾 Login/Register page</li>
+                <li>👮 User Profile page</li>
+                <li>🧾 A Amin Service</li>
+                <li>🧾 Use CURD Oprateion</li>
+                <li>🧾 Use Jwt with cookies</li>
               </ul>
             </div>
 
@@ -90,13 +100,13 @@ const Projects2 = () => {
                 📝 Description:
               </h3>
               <p className="text-sm">
-                A News Website platform where users can explore, filter news by
+                A Cosmetics Products Website platform where users can explore, filter Products by
                 category.
               </p>
             </div>
 
             {/* Technologies */}
-            <h3 className="text-lg font-semibold mb-1 flex items-center gap-2">
+            <h3 className="text-lg font-semibold mb-1 flex items-center gap-4">
               🛠️ Technology Used:
             </h3>
             <div className="flex gap-3">
@@ -112,6 +122,7 @@ const Projects2 = () => {
                   />
                   <FaReact title="React JS" className="text-blue-400" />
                   <SiDaisyui className="text-blue-500"></SiDaisyui>
+                  <SiAxios className="text-red-300"></SiAxios>
                 </div>
               </div>
 
@@ -120,6 +131,10 @@ const Projects2 = () => {
                 <p className="mb-1 font-semibold text-orange-400">Backend:</p>
                 <div className="flex gap-4 text-xl ml-2">
                   <FaFire className="text-orange-600"></FaFire>
+                  <SiMongodb className="text-green-400"></SiMongodb>
+                  <SiGoogleauthenticator className="text-sky-300"></SiGoogleauthenticator>
+                  <SiJsonwebtokens className="text-orange-500"></SiJsonwebtokens>
+                  <SiCookiecutter className="text-yellow-300"></SiCookiecutter>
                 </div>
               </div>
             </div>
@@ -128,17 +143,24 @@ const Projects2 = () => {
 
             {/*https://github.com/adnan683515/b2b-clinet-side */}
             <div className="flex flex-wrap gap-2">
-              <a href="https://the-dragon-newss.netlify.app/">
+              <a href="https://kb-cosmetics-products.netlify.app/">
                 <ShimmerButton className="p-1 sm:p-3">
                   <button className="bg-[var(--secondary-color)] px-2 py-1 w-full rounded-full text-sm">
                     Live Link
                   </button>
                 </ShimmerButton>
               </a>
-              <a href="https://github.com/kawsar121/16-dragonnews-react-firebase-big-project">
+              <a href="https://github.com/kawsar121/BD_Calling_First_Clients_projects">
                 <ShimmerButton className="p-1 sm:p-3">
                   <button className="bg-[var(--secondary-color)] px-2 py-1 w-full rounded-full">
-                    Repository
+                   Client Repo
+                  </button>
+                </ShimmerButton>
+              </a>
+              <a href="https://github.com/kawsar121/BD_Calling_First_Server_projects">
+                <ShimmerButton className="p-1 sm:p-3">
+                  <button className="bg-[var(--secondary-color)] px-2 py-1 w-full rounded-full">
+                   Server Repo
                   </button>
                 </ShimmerButton>
               </a>

@@ -3,7 +3,8 @@ import React, { useContext } from 'react';
 import Download from '../Icons/Download';
 
 import { ArrowDownToLine } from 'lucide-react';
-import logo from '../../src/assets/Logo/Untitled_design__2_-removebg-preview.png'
+// import logo from '../../src/assets/Logo/Untitled_design__2_-removebg-preview.png'
+import kblogo from '../../src/assets/Logo/kb.png'
 
 
 
@@ -56,7 +57,7 @@ const Navber = () => {
                         <div className="flex-1 hidden sm:flex items-center">
                             <div className="w-[50px] h-[50px] overflow-hidden rounded-full">
                                 <img
-                                    src={logo}
+                                    src={kblogo}
                                     alt="Logo"
                                     className="w-full h-full object-cover"
                                 />
@@ -85,7 +86,7 @@ const Navber = () => {
                             <div className="block sm:hidden font-bold text-lg">
                                 <div className="w-[50px] h-[50px] overflow-hidden rounded-full">
                                     <img
-                                        src={logo}
+                                        src={kblogo}
                                         alt="Logo"
                                         className="w-full h-full object-cover"
                                     />

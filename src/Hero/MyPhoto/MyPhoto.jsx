@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion} from "framer-motion";
 import { BorderBeam } from "@/components/magicui/border-beam";
+import myphoto from '../../assets/Logo/mens.jpeg'
 const MyPhoto = () => {
     return (
         <div>
@@ -24,8 +25,8 @@ const MyPhoto = () => {
 
                 <div className="relative z-10 sm:w-full h-full">
                     <img
-                        className="w-full h-full object-cover rounded-full "
-                        src="https://i.ibb.co/DgKvN4Cf/IMG-0297-removebg-preview.png"
+                        className="w-[320px] h-80   rounded-full "
+                        src={myphoto}
                         alt="Profile"
                     />
                 </div>
