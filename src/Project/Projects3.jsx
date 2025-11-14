@@ -24,6 +24,7 @@ const Projects3 = () => {
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img5}
+                className='w-80 h-[220px]'
                 alt=""
               />
             </div>
@@ -31,18 +32,21 @@ const Projects3 = () => {
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img1}
+                className='w-80 h-[220px]'
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img3}
+                className='w-80 h-[220px]'
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img4}
+                className='w-80 h-[220px]'
                 alt=""
               />
             </div>

@@ -32,24 +32,28 @@ const Projects2 = () => {
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img0}
+                className='w-64 h-[250px]'
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img5}
+                className='w-64 h-[250px]'
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700">
               <img
                 src={img3}
+                className='w-64 h-[250px]'
                 alt=""
               />
             </div>
             <div className="hover:scale-90 transition duration-700 ">
                 <img
                   src={img4}
+                  className='w-64 h-[250px]'
                   alt=""
                 />
               </div>

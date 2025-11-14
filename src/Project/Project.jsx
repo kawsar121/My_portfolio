@@ -1,10 +1,13 @@
 import React from 'react';
 import { NeonGradientCard } from "@/components/magicui/neon-gradient-card";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaFire, FaBootstrap } from 'react-icons/fa';
-import { SiTailwindcss, SiExpress, SiMongodb, SiDaisyui } from 'react-icons/si'
+import { SiTailwindcss, SiExpress, SiMongodb, SiDaisyui, SiGoogleauthenticator } from 'react-icons/si'
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { Link } from 'react-router';
 import { motion } from "framer-motion";
+import pet1 from '../assets/pet/pet1.png'
+import pet2 from '../assets/pet/pet2.png'
+import pet3 from '../assets/pet/pet3.png'
 const Project = () => {
 
     
@@ -26,18 +29,18 @@ const Project = () => {
                     <div className="p-6 bg-black  w-full h-full rounded-xl grid grid-cols-2 gap-2">
 
                         <div className='hover:scale-90 transition duration-700'>
-                            <img src="https://i.ibb.co/9HWgNcD4/Screenshot-2025-07-05-235640.png" alt="" />
+                            <img src={pet1} alt="" />
                         </div>
 
                         <div className='hover:scale-90 transition duration-700'>
-                            <img src="https://i.ibb.co/zHXgQJNv/Screenshot-2025-07-05-235720.png" alt="" />
+                            <img src={pet2} alt="" className='w-64 h-[235px]' />
                         </div>
                         <div className='hover:scale-90 transition duration-700'>
                             <img src="https://i.ibb.co/Z1Fj6Bf8/Screenshot-2025-07-04-181055.png" alt="" />
                         </div>
 
                         <div className='hover:scale-90 transition duration-700'>
-                            <img src="https://i.ibb.co/bRKZbwdQ/Screenshot-2025-07-05-235753.png" alt="" />
+                            <img src={pet3} className='w-64 h-[265px]' alt="" />
                         </div>
 
                     </div>
@@ -70,6 +73,9 @@ const Project = () => {
                             <ul className="list-disc list-inside space-y-1 text-sm">
                                 <li>🔍 Easily find your favourite pet</li>
                                 <li>📋 View detailed pet card</li>
+                                <li>📋 Add to cart adoption</li>
+                                <li>📋 SigIn and SignUp Option</li>
+                                <li>📋 Google sigIn with authentication</li>
                             </ul>
                         </div>
 
@@ -77,7 +83,7 @@ const Project = () => {
                         <div>
                             <h3 className="text-lg font-semibold mb-1 flex items-center gap-2">📝 Description:</h3>
                             <p className="text-sm">
-                                You can filter out favourite pet based on your preferences and explore pet details.
+                                You can filter out favourite pet based on your preferences and explore pet details. And you can buy pet accesesories in our shop
                             </p>
                         </div>
 
@@ -103,6 +109,7 @@ const Project = () => {
                                 <p className="mb-1 font-semibold text-orange-400">Backend:</p>
                                 <div className="flex gap-4 text-xl ml-2">
                                     <FaFire className='text-orange-600'></FaFire>
+                                    <SiGoogleauthenticator className='text-sky-300'></SiGoogleauthenticator>
                                 </div>
                             </div>
                         </div>
